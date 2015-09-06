@@ -1,0 +1,27 @@
+{
+  "name": "easy-flux-cosmicjs",
+  "version": "1.0.0",
+  "description": "This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspiro/easy-flux-example).  This repo also demonstrates how to easily add the Cosmic JS browser client to perform read / write / delete operations on given data sets.",
+  "main": "app.js",
+  "dependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.0.1",
+    "cosmicjs-browser": "^1.2.1",
+    "events": "^1.0.2",
+    "gulp-uglify": "^1.4.0",
+    "gulp-rename": "^1.2.2",
+    "react": "^0.13.3",
+    "flux": "^2.1.1",
+    "gulp": "^3.9.0",
+    "vinyl-source-stream": "^1.1.0",
+    "run-sequence": "^1.1.2",
+    "lodash": "^3.10.1",
+    "superagent": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tony Spiro <tspiro@tonyspiro.com> (http://tonyspiro.com/)",
+  "license": "ISC"
+}
