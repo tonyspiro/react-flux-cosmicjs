@@ -2,13 +2,10 @@
 This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspiro/easy-flux-example).  This repo also demonstrates how to easily add the Cosmic JS browser client to perform read / write / delete operations on given data sets.
 
 ##Getting started
-1. Sign up for Cosmic JS and add a bucket: [http://cosmicjs.com](http://cosmicjs.com)
+1. Sign up for Cosmic JS and add a bucket: [https://cosmicjs.com](https://cosmicjs.com)
 2. Install the repo
 ```
 git clone https://github.com/tonyspiro/easy-flux-cosmicjs
-cd easy-flux-cosmicjs
-npm install
-gulp
 ```
 3. Configure config.js to point to your Cosmic JS bucket
 ```
@@ -22,6 +19,12 @@ config.bucket = {
 };
 
 export default config;
+```
+4. Run gulp
+5. ```
+cd easy-flux-cosmicjs
+npm install
+gulp
 ```
 
 ##Optional
