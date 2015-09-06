@@ -21,7 +21,7 @@ config.bucket = {
 export default config;
 ```
 4. Run gulp
-5. ```
+```
 cd easy-flux-cosmicjs
 npm install
 gulp
