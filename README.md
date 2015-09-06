@@ -5,10 +5,10 @@ This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspi
 1. Sign up for Cosmic JS and add a bucket: [https://cosmicjs.com](https://cosmicjs.com)
 2. Install the repo 
 
-```git clone https://github.com/tonyspiro/easy-flux-cosmicjs ```
+    ```git clone https://github.com/tonyspiro/easy-flux-cosmicjs ```
 
 3. Configure config.js to point to your Cosmic JS bucket
-```
+    ```
 /* Configure
 ================================ */
 var config = {};
@@ -19,9 +19,10 @@ config.bucket = {
 };
 
 export default config;
-```
+    ```
 4. Run gulp
-```
+
+    ```
 cd easy-flux-cosmicjs
 npm install
 gulp
