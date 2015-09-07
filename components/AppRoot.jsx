@@ -56,11 +56,21 @@ class AppRoot extends React.Component {
     let _this = this;
 
     let items = ListStore.getItems();
-    
     let itemHtml = items.map(( listItem ) => {
+
+      let image = '';
+      if(listItem.metafield){
+        if(listItem.metafield.image && listItem.metafield.image.value){
+          image = (
+            <img src={'https://cosmicjs.com/uploads/' + listItem.metafield.image.value + '?dim=200'} />
+          );
+        }
+      }
+
       return <li key={ listItem._id }>
-          { listItem.title } <button onClick={ _this.removeItem } data-_id={ listItem._id }>×</button>
-        </li>;
+        { image }
+        { listItem.title } <button onClick={ _this.removeItem } data-_id={ listItem._id }>×</button>
+      </li>;
     });
 
     return (
