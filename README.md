@@ -11,7 +11,7 @@ This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspi
     ```
 /* Configure
 ================================ */
-var config = {};
+let config = {};
 config.bucket = {
         slug: 'easy-flux-cosmicjs', // your Cosmic JS bucket slug.  Sign up for Cosmic JS (Free) and add a bucket: https://cosmicjs.com/
         read_key: '', // add read_key if added to your Cosmic JS bucket settings
