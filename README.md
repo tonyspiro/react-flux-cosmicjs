@@ -10,6 +10,7 @@ This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspi
 3. Configure config.js to point to your Cosmic JS bucket
     ```
 // config.js
+
 let config = {};
 config.bucket = {
         slug: 'easy-flux-cosmicjs', // your Cosmic JS bucket slug.  Sign up for Cosmic JS (Free) and add a bucket: https://cosmicjs.com/
