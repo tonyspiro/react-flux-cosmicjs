@@ -1,5 +1,5 @@
 # easy-flux-cosmicjs
-This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspiro/easy-flux-example).  This repo demonstrates how to easily add the Cosmic JS browser client to perform read / write / delete operations on given data sets.
+This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspiro/easy-flux-example) demonstrating how to use the Cosmic JS browser client to perform read / write / delete operations on a given data set.
 
 ##Getting started
 1. Sign up for Cosmic JS and add a bucket: [https://cosmicjs.com](https://cosmicjs.com)
@@ -13,7 +13,7 @@ This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspi
 ================================ */
 var config = {};
 config.bucket = {
-  slug: 'flux-list', // your Cosmic JS bucket slug.  Sign up for Cosmic JS (Free) and add a bucket: https://cosmicjs.com/
+  slug: 'easy-flux-cosmicjs', // your Cosmic JS bucket slug.  Sign up for Cosmic JS (Free) and add a bucket: https://cosmicjs.com/
   read_key: '', // add read_key if added to your Cosmic JS bucket settings
   write_key: '' // add write_key if added to your Cosmic JS bucket settings
 };
