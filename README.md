@@ -22,15 +22,15 @@ export default config;
     ```
 4. Run webpack-dev-server
 
-```
+		```
 cd easy-flux-cosmicjs
 npm install
 npm run dev
-```
+		```
 
 5. Production ready
-```
+		```
 npm run prod
-```
+		```
 
 Go to [http://localhost:8080](http://localhost:8080/webpack-dev-server)
