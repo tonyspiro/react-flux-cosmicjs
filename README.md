@@ -27,7 +27,7 @@ cd react-flux-cosmicjs
 npm install
 npm run dev
     ```
-Go to [http://localhost:8080/webpack-dev-server](http://localhost:8080/webpack-dev-server)
+Go to [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/)
 
 5. Production ready (minified)
     ```
