@@ -17,7 +17,7 @@ let ListStore = _.extend({}, EventEmitter.prototype, {
     Cosmic.getObjects(config, function(err, response){
 
       let items = response.objects.type['list-items'];
-      items = _.sortBy(items, 'created');
+      items = _.sortBy(items, 'order');
       _this.items = items;
       _this.emitChange();
 
