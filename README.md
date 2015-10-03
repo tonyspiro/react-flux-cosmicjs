@@ -20,20 +20,17 @@ config.bucket = {
 
 export default config;
     ```
-4. Run gulp
+4. Run webpack-dev-server
 
-    ```
+```
 cd easy-flux-cosmicjs
 npm install
-gulp
+npm run dev
 ```
 
-##Optional
-###Gulp Watch and HTTP-Server:
+5. Production ready
 ```
-gulp watch
-sudo npm install -g http-server
-http-server
+npm run prod
 ```
 
-Go to [http://localhost:8080](http://localhost:8080)
+Go to [http://localhost:8080](http://localhost:8080/webpack-dev-server)

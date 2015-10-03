@@ -1,5 +1,5 @@
 import React from 'react';
-import AppRoot from './components/AppRoot';
+import AppRoot from './components/AppRoot.jsx';
 
 React.render(
   <AppRoot />,

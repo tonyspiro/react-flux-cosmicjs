@@ -4,7 +4,7 @@ import ListStore from '../stores/ListStore';
 import AppDispatcher from '../dispatcher/AppDispatcher';
 
 // Sub components
-import NewItemForm from './NewItemForm';
+import NewItemForm from './NewItemForm.jsx';
 
 // Method to retrieve state from Stores
 let getListState = () => {
