@@ -1,5 +1,5 @@
 # react-flux-cosmicjs
-This is an extenstion of the [react-flux-example repo](https://github.com/tonyspiro/react-flux-example) demonstrating how to use the Cosmic JS browser client to perform read / write / delete operations on a given data set.
+This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspiro/easy-flux-example).  This repo demonstrates how to use the [Cosmic JS browser client](https://npm.com/cosmicjs-browser) to perform read / write / delete operations on a given data set using [React](http://facebook.github.io/react/), [Flux](https://facebook.github.io/flux/) and [Cosmic JS](https://cosmicjs.com).
 
 ##Getting started
 1. Sign up for Cosmic JS and add a bucket: [https://cosmicjs.com](https://cosmicjs.com)
