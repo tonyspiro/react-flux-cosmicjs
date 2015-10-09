@@ -1,5 +1,5 @@
 # react-flux-cosmicjs
-This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspiro/easy-flux-example).  This repo demonstrates how to build a data-driven [React](http://facebook.github.io/react/) application using the [Flux](https://facebook.github.io/flux/) pattern and the [Cosmic JS browser client](https://npm.com/cosmicjs-browser) to perform read / write / delete operations on the [Cosmic JS API](https://cosmicjs.com).
+This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspiro/easy-flux-example).  This repo demonstrates how to build a data-driven [React](http://facebook.github.io/react/) application using the [Flux](https://facebook.github.io/flux/) pattern and the [Cosmic JS browser client](https://www.npmjs.com/package/cosmicjs-browser) to perform read / write / delete operations on the [Cosmic JS API](https://cosmicjs.com).
 
 ##Getting started
 1. Sign up for Cosmic JS and add a bucket: [https://cosmicjs.com](https://cosmicjs.com)
