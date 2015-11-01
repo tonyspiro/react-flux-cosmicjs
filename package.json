@@ -4,11 +4,13 @@
   "description": "This is an extenstion of the [easy-flux-example repo](https://github.com/tonyspiro/easy-flux-example).  This repo also demonstrates how to easily add the Cosmic JS browser client to perform read / write / delete operations on given data sets.",
   "main": "app.js",
   "dependencies": {
-    "cosmicjs-browser": "^1.2.1",
+    "cosmicjs": "^2.0.0",
+    "es6-promise": "^3.0.2",
     "events": "^1.0.2",
-    "react": "^0.13.3",
     "flux": "^2.1.1",
-    "lodash": "^3.10.1"
+    "isomorphic-fetch": "^2.2.0",
+    "lodash": "^3.10.1",
+    "react": "^0.13.3"
   },
   "devDependencies": {
     "babel-core": "^5.8.25",

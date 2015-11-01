@@ -1,7 +1,7 @@
 // ListStore.js
 import {EventEmitter} from 'events';
 import _ from 'lodash';
-import Cosmic from 'cosmicjs-browser';
+import Cosmic from 'cosmicjs';
 import config from './../config';
 
 let ListStore = _.extend({}, EventEmitter.prototype, {
